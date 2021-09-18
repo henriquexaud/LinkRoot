@@ -1,10 +1,37 @@
+*{
+    padding: 0px;
+}
+
 body {
+    margin-top: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Arial';
-    text-align: center;
+    font-family: 'Arial';   
+}
+
+div {
+    display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(245, 240, 240);
+    text-align: center;
+    border-radius: 12px;
+    padding: 20px 50px;
+}
+
+header img {
+    width: auto;
+    height: 80px;
+    border-radius: 50px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
 }
 
 h2{
@@ -16,8 +43,6 @@ li {
     border-radius: 8px;
     margin-bottom: 5px;
     background-color: rgb(236, 229, 229);
-    padding-left: 10px;
-    padding-right: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
     width: 400px;
@@ -27,6 +52,13 @@ li:hover {
     cursor: pointer;
     background-color: rgb(184, 247, 199);
     transition-duration: 0.3s;
+}
+
+img {
+    width: 20px;
+    margin-right: 5px;
+    position: relative;
+    top: 3px;
 }
 
 a {
