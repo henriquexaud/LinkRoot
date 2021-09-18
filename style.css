@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Arial';
+    text-align: center;
+    flex-direction: column;
+}
+
+h2{
+    margin-top: 50px;
+}
+
+li {
+    list-style: none;
+    border-radius: 8px;
+    margin-bottom: 5px;
+    background-color: rgb(236, 229, 229);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 400px;
+}
+
+li:hover {
+    cursor: pointer;
+    background-color: rgb(184, 247, 199);
+    transition-duration: 0.3s;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(26, 26, 26);
+}
