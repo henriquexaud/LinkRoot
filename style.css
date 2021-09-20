@@ -3,11 +3,13 @@
 }
 
 body {
+    color: rgb(217, 219, 223);
     margin-top: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Arial';   
+    font-family: 'Arial';
+    background-color: #121214;   
 }
 
 div {
@@ -15,7 +17,7 @@ div {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgb(245, 240, 240);
+    background-color: #1b1b1f;
     text-align: center;
     border-radius: 12px;
     padding: 20px 50px;
@@ -43,7 +45,7 @@ li {
     list-style: none;
     border-radius: 8px;
     margin-bottom: 5px;
-    background-color: rgb(236, 229, 229);
+    background-color: rgb(43, 43, 46);
     padding-top: 10px;
     padding-bottom: 10px;
     width: 400px;
@@ -51,7 +53,8 @@ li {
 
 li:hover {
     cursor: pointer;
-    background-color: rgba(23, 255, 77, 0.11);
+    color: rgb(5, 5, 5);
+    background-color: rgb(212, 212, 212);
     transition-duration: 0.2s;
 }
 
@@ -64,5 +67,5 @@ img {
 
 a {
     text-decoration: none;
-    color: rgb(26, 26, 26);
+    color: rgb(212, 212, 212);
 }
