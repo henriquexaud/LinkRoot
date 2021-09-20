@@ -56,6 +56,7 @@ li:hover {
     color: rgb(5, 5, 5);
     background-color: rgb(212, 212, 212);
     transition-duration: 0.2s;
+    font-weight: 600;
 }
 
 img {
