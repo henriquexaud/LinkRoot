@@ -1,6 +1,6 @@
 # MyLinkTree
 
-Página Web para centralizar seus links.
+Página Web para centralizar links.
 
       1 - Abra o código com sua IDE (recomendo o VS Code)
 
